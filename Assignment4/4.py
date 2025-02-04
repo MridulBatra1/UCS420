@@ -1,0 +1,10 @@
+import numpy as np;
+arr = np.array(np.linspace(10,100,25));
+print("Original array is: ",arr);
+print("Dimension : ", arr.ndim);
+print("Shape : ", arr.shape);
+print("Size : ", arr.size);
+print("Data type : ", arr.dtype);
+print("No of bytes : ", arr.nbytes);
+transpose = arr.reshape(-1,1);
+print("Transpose", transpose);
